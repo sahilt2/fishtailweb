@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FishtailWEB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="img1">
+        <img src="FISHTAILSC.png" alt="clublogo">
+    </div>
+    <div class="topnav">
+
+        <a class="active" href="Fishtail.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+    </div>
+    <!--<div id="logo">
+            <img src="FISHTAILSC.png" alt="clublogo">
+        </div>-->
+
+    <div class="header">
+        <h2>Registration Form</h2>
+    </div>
+    <!--<dialog> </dialog>-->
+    <form>
+        <!--<form method="dialog">-->
+        <section id="formbox">
+            <div class="container">
+                <label>Name</label>
+                <input type="text" placeholder=" enter fullname" id="name-real" onkeyup="validateName()">
+                <span id="name-error"></span>
+
+            </div>
+            <div class="container">
+                <label for="checkbox">Guest?</label>
+                <input type="radio" name="yes/no" id="checkbox" value="Yes" checked> Yes </input>
+                <input type="radio" name="yes/no" id="checkbox" value="No" checked> No </input>
+            </div>
+            <div class="container">
+                <label for="guest">Guest</label>
+                <input type="Guest" placeholder="enter guestname" id="guest">
+            </div>
+
+            <p>
+                <button>SUBMIT</button>
+            </p>
+        </section>
+        <script src="FISHTAIL/script.js"></script>
+
+    </form>
+
+    <!-- <button><a href="form.html">Click Here</a></button>-->
+
+</body>
+<script src="FISHTAIL/script.js"></script>
+
+</html>

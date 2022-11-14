@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <dialog open>
+        <form method="dialog">
+            <div class="container">
+                <label>Name</label>
+                <input type="text" placeholder=" enter fullname" id="name-real" onkeyup="validateName()">
+                <span id="name-error"></span>
+            </div>
+            <div class="container">
+                <label for="checkbox">Guest?</label>
+                <input type="radio" name="yes/no" id="checkbox" value="Yes" checked> Yes </input>
+                <input type="radio" name="yes/no" id="checkbox" value="No" checked> No </input>
+            </div>
+            <div class="container">
+                <label for="guest">Guest</label>
+                <input type="Guest" placeholder="enter guestname" id="guest">
+            </div>
+
+            <p>
+                <button>SUBMIT</button>
+            </p>
+        </form>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+
+</html>
